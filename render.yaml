@@ -1,0 +1,15 @@
+# Arquivo de definição de serviços para Render
+services:
+  - type: web
+    name: devopsdemo # Nome do serviço na Render
+    env: docker # Usar Docker para build
+    repo: https://github.com/victorbrandaao/DevOpsDemo # Repositório GitHub
+    branch: main # Branch que será deployada
+    plan: free # Plano gratuito
+    pull_request_previews: false # Não criar preview automático para PRs
+    auto_deploy: true # Deploy automático a cada push no GitHub
+    build_command: "" # Usamos Dockerfile, então não precisa
+    start_command: "" # Usamos ENTRYPOINT do Dockerfile
+    env_vars: # Variáveis de ambiente se precisar
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
