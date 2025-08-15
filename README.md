@@ -1,32 +1,36 @@
 # DevOpsDemo
 
-Este repositório foi criado com o objetivo de aprendizado e experimentação sobre práticas DevOps.
+Repositório criado para aprendizado e experimentação de práticas DevOps.
 
 ## Objetivo
 
-O projeto serve como um ambiente de estudos, testes e demonstrações de conceitos relacionados a DevOps, incluindo integração contínua (CI), entrega contínua (CD), automação, infraestrutura como código, monitoramento e outras práticas modernas de desenvolvimento e operações.
+O propósito deste projeto é servir como ambiente de estudos, testes e demonstrações de conceitos modernos de DevOps, incluindo:
+
+- Integração Contínua (CI)
+- Entrega Contínua (CD)
+- Automação de processos
+- Infraestrutura como código
+- Testes automatizados
+- Containerização
 
 ## Tecnologias Utilizadas
 
-- **C#** – Linguagem principal do projeto.
-- **Docker** – Utilizado para containerização de aplicações e ambientes.
+- **C#** – Linguagem principal utilizada no projeto.
+- **Docker** – Containerização das aplicações e ambientes.
+- **GitHub Actions** – Automatização de pipelines CI/CD.
+- **Outras Ferramentas** – Scripts de automação e experimentos diversos.
 
 ## O que você encontra aqui
 
-- Exemplos de pipelines de CI/CD
-- Scripts de automação
+- Exemplos práticos de pipelines CI/CD
+- Scripts e automações para DevOps
 - Arquivos de configuração Docker
 - Testes de integração e unitários
 - Documentação de experimentos e aprendizados
+- Demonstrações de boas práticas de DevOps
 
-## Como contribuir
+## Como executar o projeto
 
-Este repositório é focado em aprendizado pessoal, mas sugestões e contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
----
-
-> **Nota:** Este projeto está em constante evolução, à medida que novos conceitos e práticas são estudados e aplicados.
-
----
-
-**Autor:** [victorbrandaao](https://github.com/victorbrandaao)
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/victorbrandaao/DevOpsDemo.git
